@@ -18,7 +18,7 @@ We needed to collect a large number of IDs stored on RFID chips very quickly. Th
 
 ### Note
 
-I used this program to get the a specific set of numbers from the second line on the LCD display. The area used by the program can be adjusted on line 46 `if h > 75 and y > 180 and y < 280:`
+I used this program to get a specific set of numbers from the second line on the LCD display. The area used by the program can be adjusted on line 46 `if h > 75 and y > 180 and y < 280:`
 ```python
  45    # restrict size of digit and placement of digits
  46    if h > 75 and y > 180 and y < 280:
